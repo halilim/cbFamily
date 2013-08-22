@@ -17,4 +17,6 @@ Example group usage:
     });
 ```
 
+[Try a Demo](http://halilim.github.io/cbFamily/)
+
 Based and improved on http://tech.tiffanyandjeremy.com/Articles/Two-level-JQuery-check-and-uncheck-all-child-checkboxes-of-a-parent-checkbox
