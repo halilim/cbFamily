@@ -8,6 +8,7 @@ Checkbox group (parent/children) functionality. Makes a checkbox parent of other
  - If there is an unchecked item in the children and if the parent is checked, it gets unchecked.
  - `children` can be a function. In this case, that function is run agaist the parent in order to find the children.
    This is useful for groups of checkboxes.
+ - Checks/unchecks parent based on the initial status of its children at start.
 
 Example group usage:
 ```jquery
