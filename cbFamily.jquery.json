@@ -1,0 +1,24 @@
+{
+    "name"        : "cbFamily",
+    "title"       : "Checkbox Family",
+    "description" : "A jQuery plugin for checkbox groups (parent/children) functionality.",
+    "keywords"    : [
+        "checkbox",
+        "group"
+    ],
+    "version"     : "0.1",
+    "author"      : {
+        "name": "Halil Özgür"
+    },
+    "licenses"    : [
+        {
+            "type": "Apache-2.0",
+            "url" : "https://github.com/halilim/cbFamily/blob/master/LICENSE"
+        }
+    ],
+    "bugs"        : "https://github.com/halilim/cbFamily/issues",
+    "homepage"    : "https://github.com/halilim/cbFamily",
+    "dependencies": {
+        "jquery": "<1.6"
+    }
+}
