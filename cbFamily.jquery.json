@@ -6,7 +6,7 @@
         "checkbox",
         "group"
     ],
-    "version"     : "0.1",
+    "version"     : "1.0.0",
     "author"      : {
         "name": "Halil Özgür"
     },
@@ -19,6 +19,6 @@
     "bugs"        : "https://github.com/halilim/cbFamily/issues",
     "homepage"    : "https://github.com/halilim/cbFamily",
     "dependencies": {
-        "jquery": "<1.6"
+        "jquery": ">=1.6"
     }
 }

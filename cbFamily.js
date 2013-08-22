@@ -25,19 +25,19 @@
                 els = $(children);
             }
             $this.bind("click.cbFamily", function () {
-                els.attr('checked', this.checked).change();
+                els.prop('checked', this.checked).change();
             });
 
             function checkParent() {
-                $this.attr('checked',
+                $this.prop('checked',
                     els.length == els.filter("input:checked").length);
             }
 
             els.bind("click.cbFamily", function () {
-                if ($this.attr('checked') == true && this.checked == false) {
-                    $this.attr('checked', false).change();
+                if ($this.prop('checked') && !this.checked) {
+                    $this.prop('checked', false).change();
                 }
-                if (this.checked == true) {
+                if (this.checked) {
                     checkParent();
                     $this.change();
                 }
